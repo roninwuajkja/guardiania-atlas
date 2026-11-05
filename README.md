@@ -38,6 +38,7 @@ Abre `index.html` para navegar todos los diagramas. Cada archivo HTML funciona s
 ```text
 index.html
 404.html
+favicon.svg
 01-cuentas-autenticacion/
   01-architecture.html
   02-workflow.html
@@ -53,6 +54,16 @@ index.html
 ```
 
 Cada HTML es autocontenido: no necesita assets externos ni un servidor. El workflow de GitHub Actions copia solo los archivos del sitio a `_site` y publica con GitHub Pages.
+
+## Publicación
+
+El sitio se publica con **GitHub Actions → GitHub Pages**. Si el repositorio es privado, GitHub Pages requiere **GitHub Pro, Team o Enterprise**; si Pages no está habilitado, el workflow no puede desplegar.
+
+Para publicar o republicar:
+
+1. Ir a **Settings → Pages**.
+2. Elegir **Source: GitHub Actions**.
+3. Ejecutar el workflow **“Deploy Atlas to GitHub Pages”** o hacer push a `main`.
 
 ## Evidencia y alcance
 
@@ -70,4 +81,4 @@ Los 70 HTML pasaron las cuatro compuertas automáticas de Archify: validación, 
 
 Los diagramas describen el diseño del sistema. No incluyen datos reales de menores, conversaciones, credenciales ni contenido de notificaciones.
 
-> **Nota:** el repositorio `guardiania-atlas` es privado, pero GitHub Pages publica el sitio en una URL pública. Los enlaces de fuente apuntan al repositorio privado `guardiania` y requieren acceso a la cuenta para abrirse. `robots.txt` pide a los buscadores no indexar el sitio.
+> **Nota:** el repositorio `guardiania-atlas` es privado. GitHub Pages publica el sitio en una URL pública. Los enlaces de fuente apuntan al repositorio privado `guardiania` y requieren acceso a la cuenta para abrirse. `robots.txt` pide a los buscadores no indexar el sitio.
