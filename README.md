@@ -81,4 +81,4 @@ Los 70 HTML pasaron las cuatro compuertas automáticas de Archify: validación, 
 
 Los diagramas describen el diseño del sistema. No incluyen datos reales de menores, conversaciones, credenciales ni contenido de notificaciones.
 
-> **Nota:** el repositorio `guardiania-atlas` es privado. GitHub Pages publica el sitio en una URL pública. Los enlaces de fuente apuntan al repositorio privado `guardiania` y requieren acceso a la cuenta para abrirse. `robots.txt` pide a los buscadores no indexar el sitio.
+> **Nota:** GitHub Pages publica el sitio en una URL pública. Los enlaces de fuente apuntan al repositorio privado `guardiania` y requieren acceso a la cuenta para abrirse. `robots.txt` pide a los buscadores no indexar el sitio.
