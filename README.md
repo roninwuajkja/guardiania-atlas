@@ -1,12 +1,12 @@
 # IA Guardian · Atlas de arquitectura
 
-Set de **70 diagramas HTML autónomos** para el proyecto **IA Guardian 1.7.4**, organizados en **7 módulos funcionales** y **10 tipos de lectura** por módulo.
+Set de **70 diagramas HTML autónomos** para el proyecto **IA Guardian 1.7.5**, organizados en **7 módulos funcionales** y **10 tipos de lectura** por módulo.
 
 **Sitio publicado:** <https://roninwuajkja.github.io/guardiania-atlas/>
 
 Abre `index.html` para navegar todos los diagramas.
 
-La revisión **1.7.4** actualiza los módulos **03, 04 y 05**: ventana de señales de 5 minutos, `flags_detalle` con severidad por señal y narrativa multi-señal con red de seguridad determinista.
+La revisión **1.7.5** actualiza los módulos **03 y 04**: escaneo cada minuto, deduplicación transaccional y refresco de última sincronización.
 
  Cada archivo HTML funciona sin servidor y conserva sus propios controles de tema y movimiento.
 
@@ -71,7 +71,7 @@ Para publicar o republicar:
 
 ## Evidencia y alcance
 
-- Código base: repositorio privado `roninwuajkja/guardiania`, revisión `a4ef4f23866a7a11afd8cf1e13b7a91afdbb9505`.
+- Código base: repositorio privado `roninwuajkja/guardiania`, revisión `7107ba8066d74ba4566f1f30d677e04fdb21bbf6`.
 - Los diagramas de arquitectura, flujo, secuencia, datos, ciclo de vida, ERD, clases, árbol y waterfall están respaldados por rutas y líneas del repositorio cuando el render lo permite.
 - Los timelines operativos están marcados como **ilustrativos**; los timelines de evolución usan fechas de tags, commits o registros del changelog y están marcados como **observados**.
 - Los waterfalls son presupuestos ilustrativos, no trazas medidas. La única latencia documentada que se cita es la de Groq en la demo.
