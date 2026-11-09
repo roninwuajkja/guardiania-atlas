@@ -71,7 +71,7 @@ Para publicar o republicar:
 
 ## Evidencia y alcance
 
-- Código base: repositorio privado `roninwuajkja/guardiania`, revisión `334dbeec1068003efe2fc6cc5b15da95b918ab5f`.
+- Código base: repositorio privado `roninwuajkja/guardiania`, revisión `a4ef4f23866a7a11afd8cf1e13b7a91afdbb9505`.
 - Los diagramas de arquitectura, flujo, secuencia, datos, ciclo de vida, ERD, clases, árbol y waterfall están respaldados por rutas y líneas del repositorio cuando el render lo permite.
 - Los timelines operativos están marcados como **ilustrativos**; los timelines de evolución usan fechas de tags, commits o registros del changelog y están marcados como **observados**.
 - Los waterfalls son presupuestos ilustrativos, no trazas medidas. La única latencia documentada que se cita es la de Groq en la demo.
