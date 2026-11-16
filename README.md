@@ -1,12 +1,12 @@
 # IA Guardian · Atlas de arquitectura
 
-Set de **70 diagramas HTML autónomos** para el proyecto **IA Guardian 1.7.16**, organizados en **7 módulos funcionales** y **10 tipos de lectura** por módulo.
+Set de **80 diagramas HTML autónomos** para el proyecto **IA Guardian 1.7.16**: **7 módulos funcionales** con **10 tipos de lectura** cada uno, más un **módulo 08 de informe final** con 10 vistas del documento de título.
 
 **Sitio publicado:** <https://roninwuajkja.github.io/guardiania-atlas/>
 
 Abre `index.html` para navegar todos los diagramas.
 
-La revisión **1.7.11** actualiza el módulo **07**: movimiento calmado en el panel y el tutor.
+La revisión **1.7.16** agrega el módulo **08**: diagramas requeridos por el informe final (BPMN AS-IS/TO-BE, casos de uso, topología, C4, componentes, ERD global, cronograma, latencia y secuencia de captura).
 
  Cada archivo HTML funciona sin servidor y conserva sus propios controles de tema y movimiento.
 
@@ -21,6 +21,7 @@ La revisión **1.7.11** actualiza el módulo **07**: movimiento calmado en el pa
 | 05 | Riesgo e IA | Reglas deterministas, cadena de proveedores, caché, circuit breaker y política de nivel mínimo. |
 | 06 | Alertas y tiempo real | Persistencia, deduplicación, TutorHub, WebSocket en primer plano y FCM en segundo plano. |
 | 07 | Panel y operación | Guardia de hoy, alertas, equipos, retención, barrido de sin señal y mantenimiento. |
+| 08 | Informe final | Diagramas del informe: BPMN, casos de uso, topología, C4, componentes, ERD global, cronograma, latencia y captura. |
 
 ## Las diez lecturas
 
@@ -54,6 +55,17 @@ favicon.svg
   08-tree.html
   09-timeline.html
   10-waterfall.html
+08-informe-final/
+  01-bpmnasis.html
+  02-bpmntobe.html
+  03-usecases.html
+  04-topology.html
+  05-contexto.html
+  06-timeline.html
+  07-components.html
+  08-erd.html
+  09-latency.html
+  10-capture.html
 ...
 ```
 
